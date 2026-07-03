@@ -1,0 +1,38 @@
+/* style.css */
+body {
+    background: linear-gradient(135deg, #0b132b 0%, #1c2541 100%);
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#app {
+    width: 90%;
+    max-width: 400px;
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #334155;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 1px solid #475569;
+    background: #1e293b;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    border-color: #f59e0b;
+    background: #334155;
+}
